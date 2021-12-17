@@ -1,0 +1,51 @@
+
+會計3張2問題，
+職場英文1問題3張。
+
+
+
+python3 R.py < ../../data/sample/1.in > ../../data/sample/1.ans
+python3 R.py < ../../data/sample/2.in > ../../data/sample/2.ans
+python3 R.py < ../../data/sample/3.in > ../../data/sample/3.ans
+python3 R.py < ../../data/sample/4.in > ../../data/sample/4.ans
+python3 R.py < ../../data/secret/1.in > ../../data/secret/1.ans
+python3 R.py < ../../data/secret/2.in > ../../data/secret/2.ans
+python3 R.py < ../../data/secret/3.in > ../../data/secret/3.ans
+python3 R.py < ../../data/secret/4.in > ../../data/secret/4.ans
+python3 R.py < ../../data/secret/5.in > ../../data/secret/5.ans
+python3 R.py < ../../data/secret/6.in > ../../data/secret/6.ans
+python3 R.py < ../../data/secret/7.in > ../../data/secret/7.ans
+            //g++ R.cpp -o main
+        //./main < 10822A.in
+g++ D3.cpp -o main
+
+
+/* clang++-7 -pthread -std=c++17 -o main R.cpp */
+
+cd ~/Downloads/CodeBook/1102/src/1102N/submissions/accepted
+g++ N3.cpp -o main
+./main < ../../data/sample/1.in > ../../data/sample/1.ans
+./main < ../../data/sample/2.in > ../../data/sample/2.ans
+./main < ../../data/sample/3.in > ../../data/sample/3.ans
+./main < ../../data/sample/4.in > ../../data/sample/4.ans
+./main < ../../data/sample/5.in > ../../data/sample/5.ans
+
+./main < ../../data/secret/0.in > ../../data/secret/0.ans
+./main < ../../data/secret/1.in > ../../data/secret/1.ans
+./main < ../../data/secret/2.in > ../../data/secret/2.ans
+./main < ../../data/secret/3.in > ../../data/secret/3.ans
+./main < ../../data/secret/4.in > ../../data/secret/4.ans
+./main < ../../data/secret/5.in > ../../data/secret/5.ans
+./main < ../../data/secret/6.in > ../../data/secret/6.ans
+./main < ../../data/secret/7.in > ../../data/secret/7.ans
+
+## [線上開發環境 replit.com](https://replit.com/)
+
+int or signed int	32 bits	-2147483648 to 2147483647
+
+https://edoc.good.nat.gov.tw/kw2/
+2020 ITSA全國大專程式設計極客挑戰賽 資訊系統與網頁設計應用組 第一名
+2019 ITSA全國大專程式設計極客挑戰賽 資訊系統與網頁設計應用組 第一名
+
+謝旻錚
+
